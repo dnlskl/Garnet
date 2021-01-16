@@ -6,6 +6,10 @@ type User {
     name: String,
     email: String,
 }
+
+type Query {
+    hello: String
+}
 `
 
 module.exports = typeDefs

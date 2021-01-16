@@ -1,4 +1,4 @@
-require('./db/db.js') // import DataBase connection file
+// require('./db/db.js') // import DataBase connection file
 
 require('dotenv').config() // add env variables from .env file in process.env
 const express = require('express')
